@@ -1,0 +1,30 @@
+.bx-main {
+    width: 500px;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: coral;
+}
+.bx-main__sec{
+    padding: 20px;
+    margin: 20px;
+    height: auto;
+    display: flex;
+   text-align: center;
+
+
+
+}
+
+.bx-main__sec--item{
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    margin: 20px;
+    margin-left: 150px; 
+}
+.bg1 {
+    background-color: darksalmon;
+}

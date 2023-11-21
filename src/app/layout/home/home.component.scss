@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+}
+.be-main{
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+   
+   
+}
+
+.be-main__sec {
+    display: flex;
+   padding: 10px; margin: 20px;
+    width: auto; height: auto;
+   justify-content: center;
+
+    
+}
+
+.be-main__sec--item {
+     width: 30%;
+     height: auto;
+     padding: 20px;
+     text-align: center;
+}
+.bg1{
+    background-color:chocolate;
+}
+.bg2{
+    background-color:coral;
+}
+.bg3{
+    background-color:darkorange;
+}

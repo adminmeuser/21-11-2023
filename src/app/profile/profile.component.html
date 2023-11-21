@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="./profile.component.scss">
+  </head>
+  <body>
+    <h2> {{welcome}}</h2>
+    <p>{{firstName}} {{lastName}}</p>
+    <h3 [innerText]="title"></h3>
+    <button [disabled]=" isDisabled">Engineer</button>
+    <p [class]="myClass">Enter your Bio</p>
+    <input type="email" placeholder="Enter your email"><br><br>
+    <input type="number" placeholder="Enter your Number"><br><br>
+    <button (click)="onSave()">Save</button>
+    <p>You have Clicked {{clickCount}}</p>
+    <input #myTitle (keyup)= "keyup(myTitle.value)">
+    <h3>{{text}}</h3>
+    <input type="text" name="value" [(ngModel)]="value">
+    <p>Thank You {{value}}</p>
+  </body></html>
